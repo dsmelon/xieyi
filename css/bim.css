@@ -1,0 +1,133 @@
+﻿#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+}
+#bmTitle {
+	text-align: center;
+	line-height: 400px;
+	background-color: #e5e5e5;
+}
+#bmTitle span {
+	display: inline-block;
+	height: 2px;
+	width: 120px;
+	background-color: #cfdb00;
+	vertical-align: middle;
+}
+#bmTitle strong {
+	font-size: 22px;
+	color: #616161;
+	vertical-align: middle;
+	padding: 0 20px;
+}
+#scrollScreen li {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+#scrollScreen li i {
+	font-size: 24px;
+	color: #616161;
+	background-color: #cfdb00;
+	padding: 12px;
+	position: absolute;
+	font-style: normal;
+}
+#scrollScreen li p {
+	font-size: 18px;
+	color: #1a1a1a;
+	width: 38%;
+	position: absolute;
+	
+}
+#scrollScreen .ss1{
+	background: url(../img/b_ss1.jpg);
+	background-size: cover;
+}
+#scrollScreen .ss2{
+	background: url(../img/b_ss2.jpg);
+	background-size: cover;
+}
+#scrollScreen .ss3{
+	background: url(../img/b_ss3.jpg);
+	background-size: cover;
+}
+#scrollScreen .ss4{
+	background: url(../img/b_ss4.jpg);
+	background-size: cover;
+}
+#scrollScreen .ss5{
+	background: url(../img/b_ss5.jpg);
+	background-size: cover;
+}
+#scrollScreen .ss1 i{
+	left: 15%;
+	top: 30%;
+}
+#scrollScreen .ss1 p {
+	left: 15%;
+	top: calc(30% + 80px);
+}
+#scrollScreen .ss2 i{
+	left: 15%;
+	top: 30%;
+}
+#scrollScreen .ss2 p {
+	left: 15%;
+	top: calc(30% + 80px);
+}
+#scrollScreen .ss3 i{
+	left: 38%;
+	top: 38%;
+}
+#scrollScreen .ss3 p {
+	left: 38%;
+	top: calc(38% + 80px);
+}
+#scrollScreen .ss4 i{
+	left: 37%;
+	top: 26%;
+}
+#scrollScreen .ss4 p {
+	left: 37%;
+	top: calc(26% + 80px);
+}
+#scrollScreen .ss5 i{
+	left: 16%;
+	top: 45%;
+}
+#scrollScreen .ss5 p {
+	left: 16%;
+	top: calc(45% + 80px);
+}
+#scrollScreen{
+	position: relative;
+}
+#breTop {
+	width: 69px;
+	height: 52px;
+	background: url(../img/reTop.png) no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: calc(50% - 35px);
+	cursor: pointer;
+}
+.swiper-container {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+#footer div {
+	color: #898989;
+	font-size: 16px;
+}
+#footer,#info{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

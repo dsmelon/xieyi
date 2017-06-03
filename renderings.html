@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>renderings</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/rend.css">
+	<script type="text/javascript" src="js/idangerous.swiper.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="headNav">
+			<img src="img/logo.jpg">
+			<ul id="htmlTab">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li style="background-color: #cfdb00;"><a href="renderings.html">Renderings</a></li>
+				<li><a href="bim.html">BIM</a></li>
+				<li><a href="3danimate.html">3D Animate</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div id="navShrink"><p></p><p></p><p></p></div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="rmTitle">
+			<span></span>
+			<strong>DIGITAL EFFECT DRAWING</strong>
+			<span></span>
+		</div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<img src="img/r_ping1.jpg" class="swiper-slide">
+				<img src="img/r_ping1.jpg" class="swiper-slide">
+				<img src="img/r_ping1.jpg" class="swiper-slide">
+			</div>
+			<div class="pagination"></div>
+		</div>
+		<div class="rcontent">
+			<div><img src="img/r_list1.jpg"><img src="img/r_list2.jpg"><img src="img/r_list3.jpg"></div>
+			<div><img src="img/r_list4.jpg"><img src="img/r_list5.jpg"><img src="img/r_list6.jpg"></div>
+			<div><img src="img/r_list7.jpg"><img src="img/r_list8.jpg"><img src="img/r_list9.jpg"></div>
+			<div><img src="img/r_list10.jpg"><img src="img/r_list11.jpg"><img src="img/r_list12.jpg"></div>
+			<p id="rreTop"></p>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="fTitle">
+			<span></span>
+			<strong>CONTECT US</strong>
+			<span></span>
+		</div>
+		<p>Email：eric@shining365.com</p>
+		<p>Mobile Phone：86 138 1690 3400</p>
+		<p>Tel：+86 21 6598 6866-304  +86 21 6598 3188-304</p>
+	</div>
+	<div id="info">
+		<p>Copyright © 1998-2015 shining Group</p>
+	</div>
+	<div id="imgSearch"></div>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script>
+		$(".swiper-container").height($(this).width()/2);
+		$(".rcontent div").height($(this).width()/3.52);
+		new Swiper(".swiper-container",{
+			pagination: ".pagination",//按钮
+			loop: true,//无缝
+			speed: 400,//速度
+			autoplay: 5000,//自动播放
+			autoplayDisableOnInteraction: false,//移开播放
+			 paginationClickable: true,//能点
+		})
+		$(window).on("resize",function(){
+			$(".swiper-container").height($(this).width()/2);
+			$(".rcontent div").height($(this).width()/3.52);
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+﻿#header {
+	background-color: #fefefe;
+	border-bottom: 1px solid #c0c0c0;
+	box-shadow: 0 0 3px #c0c0c0;
+}
+#headNav {
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 185px;
+	height: 66px;
+	background-color: #fefefe;
+}
+#headNav img {
+	float: left;
+	position: relative;
+}
+#htmlTab {
+	float: right;
+	background-color: #fefefe;
+	position: relative;
+	z-index: 10;
+}
+#navShrink {
+	width: 40px;
+	height: 60px;
+	float: right;
+	background-color: #333;
+	border-radius: 5px;
+	padding: 0 10px;
+	display: none;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+#navShrink p {
+	width: 40px;
+	height: 6px;
+	background-color: #fefefe;
+	margin-top: 11px;
+}
+#htmlTab li {
+	display: inline-block;
+	height: 66px;
+	line-height: 66px;
+	font-size: 14px;
+	padding: 0 26px;
+	margin-right: -4px;
+	transition: all 0.6s;
+}
+#htmlTab li:hover {
+	background-color: #cfdb00;
+}
+.line {
+	height: 3px;
+	box-shadow: 0 2px 3px #c0c0c0;
+}
+@media screen and (max-width: 815px) {
+	#htmlTab {
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 66px;
+		width: 100%;
+		background-color: #fefefe;
+	}
+	#htmlTab li {
+		display: block;
+		background-color: #fefefe;
+	}
+	#navShrink {
+		display: block;
+	}
+}
+#footer {
+	height: 338px;
+	background-color: white;
+	border-bottom: 3px solid #cfdb00;
+	text-align: center;
+}
+#footer p {
+	color: #898989;
+	font-size: 16px;	
+}
+#fTitle {
+	height: 112px;
+	text-align: center;
+	margin-top: 66px;
+}
+#fTitle span {
+	display: inline-block;
+	height: 2px;
+	width: 120px;
+	background-color: #cfdb00;
+	vertical-align: middle;
+}
+#fTitle strong {
+	font-size: 22px;
+	color: #616161;
+	vertical-align: middle;
+	padding: 0 20px;
+}
+#info {
+	height: 64px;
+	background-color: #b4b4b4;
+	text-align: center;
+	font-size: 20px;
+	color: #fefefe;
+	line-height: 64px;
+}
+@media screen and (max-width: 450px) {
+	#fTitle span {
+		display: none;
+	}
+}
+	
+/*图片转黑白*/
+.gray { 
+	-webkit-filter: grayscale(1); 
+	-moz-filter: grayscale(1); 
+	-ms-filter: grayscale(1); 
+	-o-filter: grayscale(1); 
+	filter: grayscale(1); 
+	filter: gray; 
+}
+/*亮度*/
+.bright {
+	-webkit-filter: brightness(0.7);
+	-o-filter: brightness(0.7);
+	filter: brightness(0.7);
+}
